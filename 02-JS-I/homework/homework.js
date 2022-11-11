@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
- return y - x; 
+ return x - y; 
 }
 
 function multiplica(x, y) {
@@ -100,7 +100,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  console.log (x % y);  
+  return (x % y);  
 }
 
 function esPar(num) {
