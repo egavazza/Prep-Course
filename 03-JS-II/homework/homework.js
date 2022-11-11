@@ -5,7 +5,10 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  return Math.max (x, y);
+  if (x > y) {
+    return x;
+  } 
+  return y;
 }
 
 function mayoriaDeEdad(edad) {
@@ -14,9 +17,10 @@ function mayoriaDeEdad(edad) {
   //Si es menor, devolver --> "Not allowed"
   if (edad >= 18) {
     return 'Allowed';
-} else {
+  } 
+  else {
     return 'Not allowed';
-}
+  }
 }
   
 function conection(status) {
@@ -25,13 +29,15 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-  if (status === 1){
+  if (status === 1) {
     return 'Online';
-} else if (status === 2){
+  }
+  else if (status === 2) {
     return 'Away';
-} else {
+  }
+  else {
     return 'Offline';
-}
+  }
 }
 
 function saludo(idioma) {
@@ -41,15 +47,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma === 'aleman'){
+  if (idioma === 'aleman') {
     return 'Guten Tag!';
-} else if (idioma === 'mandarin'){
+  } else if (idioma === 'mandarin') {
     return 'Ni Hao!';
-} else if (idioma === 'ingles'){
+  } else if (idioma === 'ingles') {
     return 'Hello!';
-} else {
-    return 'Hola!';
-}
+  } else {
+    return 'Hola!'; 
+  }
 }
 
 function colors(color) {
@@ -62,19 +68,19 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color) {
     case 'blue':
-        console.log ('This is blue');
+        return 'This is blue';
         break;
     case 'red':
-        console.log ('This is red');
+        return 'This is red';
         break;
     case 'green':
-        console.log ('This is green');
+         return 'This is green';
         break;
     case 'orange':
-        console.log ('This is orange');
+        return 'This is orange';
         break;
     default:
-        console.log ('Color not found')
+        return 'Color not found';
 }  
 }
 
