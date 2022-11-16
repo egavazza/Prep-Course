@@ -59,9 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  const sueltas = ['Hello', 'world!'];
-  const misPalabras = palabras.concat (sueltas);
-  return misPalabras;
+  return palabras.concat ();
 }
 
 
