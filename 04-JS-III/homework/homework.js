@@ -116,11 +116,10 @@ function multiplicarArgumentos() {
     return 0;
   }
   else {
-    let unidades = i;
     for (let i = 0; i < arguments.length; i++) {
-      unidades *= arguments [i];
+      i *= arguments;
     }
-    return unidades;
+    return (i);
 }
 }
 
