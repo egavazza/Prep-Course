@@ -112,7 +112,16 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-
+  if (arguments.length < 1){
+    return 0;
+  }
+  else {
+    let unidades = i;
+    for (let i = 0; i < arguments.length; i++) {
+      unidades *= arguments [i];
+    }
+    return unidades;
+}
 }
 
 
