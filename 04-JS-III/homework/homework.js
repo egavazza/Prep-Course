@@ -99,7 +99,12 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-return Math.max (numeros);
+  let max = 0;
+  for (let numero of numeros){
+    if (max < numero)
+    max = numero;
+  }
+return (max);
 }
 
 
@@ -107,6 +112,7 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+
 }
 
 
