@@ -76,7 +76,7 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   for (let i = 0; i < numeros.length; i++);
-  return numeros [i];
+  return [i];
 }
 
 
