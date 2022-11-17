@@ -143,10 +143,10 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí   
   if (numeroDeDia > 2 || numeroDeDia < 6){
     return 'Es dia Laboral';
-  } else {
+  } else if (numeroDeDia === 1 || numeroDeDia === 7){
     return 'Es fin de semana';
   }
-} 
+  }
 
 
 function empiezaConNueve(n) {
