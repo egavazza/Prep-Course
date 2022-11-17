@@ -79,7 +79,7 @@ function agregarNumeros(numeros) {
   for (let i = 0; i < numeros.length; i++){
     suma = suma + numeros [i];
   };
-  return [suma];
+  return suma;
 }
 
 
