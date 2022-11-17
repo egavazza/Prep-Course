@@ -115,7 +115,7 @@ function multiplicarArgumentos() {
   if (arguments.length < 1){
     return 0;
   }
-    let unidades = i;
+    let unidades = 1;
     for (let i = 0; i < arguments.length; i++) {
       unidades = unidades * arguments [i];
     }
