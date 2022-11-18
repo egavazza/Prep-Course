@@ -181,6 +181,7 @@ function mesesDelAño(array) {
   if (valor !== array) {
     return 'No se encontraron los meses pedidos';
   }
+  return fewMonths;
 }
 
 
