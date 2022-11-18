@@ -181,7 +181,12 @@ function mesesDelAño(array) {
       algunos.push (array[i]);
     }
   }
+  if (algunos.length < 3){
     return 'No se encontraron los meses pedidos';
+  }
+  else {
+    return algunos;
+  }
   }
 
 
