@@ -175,6 +175,12 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  let fewMonths = array.every ((valor) => {
+    return valor = array;
+  })
+  if (valor !== array) {
+    return 'No se encontraron los meses pedidos';
+  }
 }
 
 
