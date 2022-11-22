@@ -241,11 +241,13 @@ function continueStatement(numero) {
   let sigue = [];
   let suma = numero;
   for (var i = 0; i < numero.length; i++) {
-    suma = suma + 2;
-    if (suma === 5) {
+    if (i === 4) {
       continue;
     }
-    sigue.push (suma);
+    else {
+      suma = suma + 2;
+      sigue.push (suma);
+    }
   }
   return sigue;
 }
