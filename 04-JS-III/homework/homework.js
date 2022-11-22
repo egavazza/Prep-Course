@@ -240,7 +240,7 @@ function continueStatement(numero) {
   // Tu código:
   let sigue = [];
   let suma = numero;
-  for (var i = 0; i < numero.length; i++) {
+  for (var i = 0; i < 10; i++) {
     if (i === 4) {
       continue;
     }
