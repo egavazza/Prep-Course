@@ -199,8 +199,8 @@ function mayorACien(array) {
     if ((array [i] >100)){
       mayorA100.push (array [i]);
     }
-    return mayorA100;
   }
+  return mayorA100;
 }
 
 
