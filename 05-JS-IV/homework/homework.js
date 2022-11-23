@@ -30,6 +30,11 @@ function invocarMetodo (objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
+  const objeto = {
+    metodo: function () {
+      console.log ('metodo');
+    }
+  }
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
