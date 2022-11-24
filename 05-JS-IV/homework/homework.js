@@ -55,7 +55,7 @@ function nuevoUsuario (nombre, email, password) {
   // Tu código:
   const newUser = {
     nombre: nombre,
-    emai: email,
+    email: email,
     password: password,
   }
   return newUser;
