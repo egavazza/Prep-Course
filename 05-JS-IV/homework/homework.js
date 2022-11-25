@@ -80,11 +80,11 @@ function tienePropiedad (objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
   for (const propiedad in objeto) {
-    if (propiedad !== string){
-      return false;
+    if (propiedad === propiedad){
+      return true;
     }
     else {
-      return true;
+      return false;
     }
   }
 }
