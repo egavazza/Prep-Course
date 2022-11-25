@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { stringify } = require("git-url-parse");
+
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
   // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
@@ -77,6 +79,14 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
+  for (const propiedad in objeto) {
+    if (propiedad !== string){
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
 }
 
 function verificarPassword (usuario, password) {
