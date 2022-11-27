@@ -109,7 +109,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Devuelve el objeto "usuario"
   // Tu código:
   for (let amigos in usuario) {
-    array.push (nuevoAmigo);
+    amigos.push (nuevoAmigo);
   }
   return usuario;
 }
