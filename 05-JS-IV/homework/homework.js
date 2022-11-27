@@ -1,6 +1,7 @@
 // No cambies los nombres de las funciones.
 
 const { stringify } = require("git-url-parse");
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
 
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
@@ -107,7 +108,9 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-  usuario [amigos] = nuevoAmigo;
+  for (let amigos in usuario) {
+    array.push (nuevoAmigo);
+  }
   return usuario;
 }
 
