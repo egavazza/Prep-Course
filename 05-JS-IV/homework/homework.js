@@ -108,9 +108,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-  for (let amigos in usuario) {
-    amigos.push (nuevoAmigo);
-  }
+  amigos.push (nuevoAmigo);
   return usuario;
 }
 
